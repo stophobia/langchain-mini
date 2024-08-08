@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "chatgpt-tutorial-mini"
+version = "0.1.0"
+description = ""
+authors = ["teddy <teddylee777@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.9"
+langchain-openai = "^0.1.20"
+langchain-teddynote = "^0.0.19"
+faiss-cpu = "^1.8.0.post1"
+pymupdf = "^1.24.9"
+streamlit = "^1.37.1"
+jupyter = "^1.0.0"
+python-dotenv = "^1.0.1"
+langchain-community = "^0.2.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
